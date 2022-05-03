@@ -2,10 +2,11 @@
  * @Author: 41
  * @Date: 2022-05-03 09:37:22
  * @LastEditors: 41
- * @LastEditTime: 2022-05-03 11:00:31
+ * @LastEditTime: 2022-05-03 19:59:59
  * @Description: 
 -->
-- 1.`src`改为`examples`后，因为默认在`src/main.js`的更页面的入口，所以更新报错，无法运行
+[toc]
+# 1.`src`改为`examples`后，因为默认在`src/main.js`的更页面的入口，所以更新报错，无法运行
   - 所以，我们需要改变一下vue配置，告诉项目，我们的入口`vue.config.js`文件里
 ```js
 const { defineConfig } = require('@vue/cli-service')
@@ -21,10 +22,13 @@ module.exports = defineConfig({
 })
 ```
 
-- 2.scss-loader not Found
+# 2.scss-loader not Found
   - `npm i sass-loader -D`安装loader即可
   - `npm i sass -D`
 
-- 3.直接use会报错，要用component来注册组件
+# 3.直接use会报错，要用component来注册组件
 
-  
+# 4.configuration.output.path: The provided value "dist" is not an absolute path!未使用绝对路径！
+
+# 5.The following tasks did not complete: sass 
+## Did you forget to signal async completion? 
