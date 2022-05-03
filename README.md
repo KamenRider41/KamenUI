@@ -1,3 +1,13 @@
+<!--
+ * @Author: 41
+ * @Date: 2022-05-02 20:27:48
+ * @LastEditors: 41
+ * @LastEditTime: 2022-05-03 09:37:16
+ * @Description: 
+-->
+- 看开发过程记录文档
+- 看bug回忆录
+
 # KamenUI目标
 从零完成自己的Vue组件库:blush::blush::blush:
 
