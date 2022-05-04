@@ -1,9 +1,16 @@
+<!--
+ * @Author: 41
+ * @Date: 2022-05-02 20:27:48
+ * @LastEditors: 41
+ * @LastEditTime: 2022-05-04 10:29:45
+ * @Description: 
+-->
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <Demo />
-  <m-card imgSrc="touxiang2.jpg" summary="间谍过家家！" width="170" />
+  <m-card imgSrc="touxiang2.jpg" summary="间谍过家家！" :width="170" />
   <br>
-  <m-card imgSrc="touxiang.png" summary="国王排名" width="170">
+  <m-card imgSrc="touxiang.png" summary="国王排名" :width="170">
     <template v-slot:footer>
       <div class="footer">
         <div class="level">100人追番</div>

@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-03 15:12:59
  * @LastEditors: 41
- * @LastEditTime: 2022-05-03 15:58:26
+ * @LastEditTime: 2022-05-04 10:45:06
  * @Description: 
 -->
 <template>
@@ -10,7 +10,7 @@
     <div class="m-card-img" :style="imgHeight ? { height: imgHeight + 'px' } : {}">
       <img :src="imgSrc" alt="img" />
     </div>
-    <div v-if="summary" class="m-card-summary">
+    <div v-if="summary.length" class="m-card-summary">
       {{ summary }}
     </div>
     <div v-else class="m-card-summary">
