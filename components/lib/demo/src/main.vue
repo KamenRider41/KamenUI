@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-03 09:51:30
  * @LastEditors: 41
- * @LastEditTime: 2022-05-03 09:52:54
+ * @LastEditTime: 2022-05-04 17:10:17
  * @Description: 
 -->
 <template>
@@ -11,8 +11,12 @@
 
 
 <script>
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Demo'
-}
+  name: 'Demo',
+  setup () {
+
+  }
+})
 </script>

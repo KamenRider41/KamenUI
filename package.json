@@ -1,6 +1,6 @@
 {
-  "name": "kamen-ui",
-  "version": "0.1.0",
+  "name": "kamen-ui-test",
+  "version": "0.1.7",
   "description": "41的组件库哦！",
   "main": "dist/index.umd.js",
   "keywords": [
@@ -19,13 +19,14 @@
     "build": "yarn build:js && yarn build:css",
     "lint": "vue-cli-service lint",
     "build:js": "webpack --config ./webpack.component.js",
-    "build:css": "npx gulp sass"
+    "build:css": "npx gulp sass",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "kamen-ui": "^0.1.0",
-    "style-loader": "^3.3.1",
-    "vue": "^3.2.13"
+    "kamen-ui-test": "^0.1.7",
+    "vue": "^3.2.33"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-02 20:27:48
  * @LastEditors: 41
- * @LastEditTime: 2022-05-04 10:29:45
+ * @LastEditTime: 2022-05-04 16:03:21
  * @Description: 
 -->
 <template>
@@ -21,11 +21,12 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
   name: 'App',
   components: {
   }
-}
+})
 </script>
 
 <style>
