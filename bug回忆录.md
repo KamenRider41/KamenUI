@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-03 09:37:22
  * @LastEditors: 41
- * @LastEditTime: 2022-05-03 19:59:59
+ * @LastEditTime: 2022-05-04 11:17:50
  * @Description: 
 -->
 [toc]
@@ -30,5 +30,14 @@ module.exports = defineConfig({
 
 # 4.configuration.output.path: The provided value "dist" is not an absolute path!未使用绝对路径！
 
-# 5.The following tasks did not complete: sass 
-## Did you forget to signal async completion? 
+# 5.The following tasks did not complete: sass Did you forget to signal async completion? 
+
+# 6.组件库发布后，card组件无法正常使用
+
+# 7.warning package.json: No license field
+`“license”: “ISC”,`package 添加
+
+# 8.vue@3.2.33 和vue-server-renderer版本不匹配
+`npm install vue@2.6.14 --save`vue降低版本
+
+# 9.Vuepress乱码，进去改变编码为utf-8
