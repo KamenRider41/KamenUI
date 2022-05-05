@@ -1,3 +1,10 @@
+<!--
+ * @Author: 41
+ * @Date: 2022-05-02 20:27:48
+ * @LastEditors: 41
+ * @LastEditTime: 2022-05-05 22:01:54
+ * @Description: 
+-->
 # Kamen-UI
 ![](https://img.shields.io/badge/npm-0.1.1-orange)
 
@@ -26,10 +33,11 @@ Vue.use(KUI)
 
 // 按需引用
 import { createApp } from 'vue'
-import 'kamen-ui/dist/css/demo.css'
-import {Demo} from 'kamen-ui'
+import Card from 'kamen-ui/components/lib/card/index'
+import 'kamen-ui/dist/css/card.css'
+import {Card} from 'kamen-ui'
 let Vue = createApp(App)
-Vue.use(Demo)
+Vue.use(Card)
 ```
 
 ## KamenUI目标
