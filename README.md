@@ -1,36 +1,38 @@
-<!--
- * @Author: 41
- * @Date: 2022-05-02 20:27:48
- * @LastEditors: 41
- * @LastEditTime: 2022-05-04 10:23:52
- * @Description: 
--->
-# kamen-ui组件库
+# Kamen-UI
+![](https://img.shields.io/badge/npm-0.1.1-orange)
+
+[文档地址](https://kamenrider41.github.io/KamenUI-docs/)
+
+[仓库地址](https://github.com/KamenRider41/KamenUI)
+
+仓库说明:
+- 看开发过程记录文档
+- 看bug回忆录
+***
 ### 快速开始
 #### 1.安装组件库
 ```bash
 npm i kamen-ui
 ```
 #### 2.引用组件库
+> 在`main.js`中引用组件库
 ```js
 // 全部引入
+import { createApp } from 'vue'
 import 'kamen-ui/dist/css/index.css'
 import KUI from 'kamen-ui'
 let Vue = createApp(App)
 Vue.use(KUI)
 
 // 按需引用
+import { createApp } from 'vue'
 import 'kamen-ui/dist/css/demo.css'
 import {Demo} from 'kamen-ui'
 let Vue = createApp(App)
 Vue.use(Demo)
 ```
-***
-[仓库地址](https://github.com/KamenRider41/KamenUI)
-仓库说明:
-- 看开发过程记录文档
-- 看bug回忆录
-# KamenUI目标
+
+## KamenUI目标
 从零完成自己的Vue组件库:blush::blush::blush:
 
 和你一起还原代码现场！:kissing_heart:
