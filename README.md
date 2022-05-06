@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-02 20:27:48
  * @LastEditors: 41
- * @LastEditTime: 2022-05-05 22:01:54
+ * @LastEditTime: 2022-05-06 10:10:24
  * @Description: 
 -->
 # Kamen-UI
@@ -33,11 +33,28 @@ Vue.use(KUI)
 
 // 按需引用
 import { createApp } from 'vue'
-import Card from 'kamen-ui/components/lib/card/index'
-import 'kamen-ui/dist/css/card.css'
 import {Card} from 'kamen-ui'
 let Vue = createApp(App)
 Vue.use(Card)
+```
+#### 2.1按需引入的配置
+- `npm install babel-plugin-component -D`安装插件
+- 配置`.babelrc`文件
+```js
+{
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "kamen-ui/dist",
+        "styleLibrary": {
+          "name": "css",
+          "base": false
+        },
+      },
+    ],
+  ]
+}
 ```
 
 ## KamenUI目标

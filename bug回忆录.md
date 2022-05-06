@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-03 09:37:22
  * @LastEditors: 41
- * @LastEditTime: 2022-05-04 11:17:50
+ * @LastEditTime: 2022-05-06 10:07:51
  * @Description: 
 -->
 [toc]
@@ -41,3 +41,5 @@ module.exports = defineConfig({
 `npm install vue@2.6.14 --save`vue降低版本
 
 # 9.Vuepress乱码，进去改变编码为utf-8
+
+# 10.按需加载的配置bug
