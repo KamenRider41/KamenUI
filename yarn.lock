@@ -5060,6 +5060,24 @@
   "resolved" "https://registry.npmjs.org/just-debounce/-/just-debounce-1.1.0.tgz"
   "version" "1.1.0"
 
+"kamen-ui-test@^0.1.25", "kamen-ui-test@^0.1.30":
+  "integrity" "sha512-JW51Ken3R7p4PcxpfXmCybyXECuVnYV3UExGaiv5xUJRmdeyAKcEPNZ7XtoAqAtIB9s3zD3L+v0Kdxy0uqmD6A=="
+  "resolved" "https://registry.npmjs.org/kamen-ui-test/-/kamen-ui-test-0.1.30.tgz"
+  "version" "0.1.30"
+  dependencies:
+    "core-js" "^3.8.3"
+    "kamen-ui" "^0.1.1"
+    "kamen-ui-test" "^0.1.25"
+    "vue" "^3.2.33"
+
+"kamen-ui@^0.1.1":
+  "integrity" "sha512-q3zLLijxCcHg4HuFXQ6chLlCz6bc2aD4+Hc8Cdv30dDIyNidmjkVdf8fXqYkvYKIhkhUD9/jQBr43ereX5vW0Q=="
+  "resolved" "https://registry.npmjs.org/kamen-ui/-/kamen-ui-0.1.1.tgz"
+  "version" "0.1.1"
+  dependencies:
+    "core-js" "^3.8.3"
+    "vue" "^3.2.33"
+
 "kind-of@^3.0.2", "kind-of@^3.0.3":
   "integrity" "sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ="
   "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz"

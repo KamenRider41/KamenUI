@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-03 15:12:59
  * @LastEditors: 41
- * @LastEditTime: 2022-05-04 17:10:34
+ * @LastEditTime: 2022-05-10 18:59:54
  * @Description: 
 -->
 <template>
@@ -13,10 +13,10 @@
     <div v-if="summary" class="m-card-summary">
       {{ summary }}
     </div>
-    <!-- <div v-else class="m-card-summary">
-      <slot></slot>
-    </div> -->
-    <!-- <slot name="footer"></slot> -->
+    <div class="footer">
+      <div class="level">{{ level }}</div>
+      <div class="price">{{ price }}</div>
+    </div>
   </div>
 </template>
 
@@ -40,6 +40,14 @@ export default defineComponent({
       default: 0
     },
     summary: {   // 卡片的概要
+      type: String,
+      default: ''
+    },
+    level: {
+      type: String,
+      default: ''
+    },
+    price: {
       type: String,
       default: ''
     }
